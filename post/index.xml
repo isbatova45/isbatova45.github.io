@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Непрерывная интеграция и непрерывное развертывание</title>
+      <title>Непрерывная интеграция и непрерывное развертывание (СD/CI)</title>
       <link>https://example.com/post/cdci/</link>
       <pubDate>Fri, 17 Mar 2023 16:50:31 +0300</pubDate>
       <guid>https://example.com/post/cdci/</guid>
@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>Прошедшая неделя</title>
+      <title>Неделя с 13.03 по 18.03</title>
       <link>https://example.com/post/lastweek/</link>
       <pubDate>Fri, 17 Mar 2023 16:46:14 +0300</pubDate>
       <guid>https://example.com/post/lastweek/</guid>
@@ -218,7 +218,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-948652137&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-934562781&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -228,7 +228,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-948652137&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-934562781&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
