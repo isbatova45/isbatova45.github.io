@@ -5,12 +5,32 @@
     <link>https://example.com/category/demo/</link>
       <atom:link href="https://example.com/category/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Apr 2023 16:48:14 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Apr 2023 13:09:14 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
       <link>https://example.com/category/demo/</link>
     </image>
+    
+    <item>
+      <title>Оформление отчёта</title>
+      <link>https://example.com/post/reportcreate/</link>
+      <pubDate>Mon, 24 Apr 2023 13:09:14 +0300</pubDate>
+      <guid>https://example.com/post/reportcreate/</guid>
+      <description>&lt;p&gt;Для оформления отчета я использую язык разметки Markdown. В начала файла всегда указывается номер лабораторной работы, по которой делается отчет, дисциплина и ФИО студента, выполнившего работу. Ниже указывается цель работы, затем поэтапно описывается каждый этап работы со скриншотами, на каждый скриншот указывается ссылка. В конце работы располагается вывод, согласованный с темой работы, а также ответы на контрольные вопросы.&lt;/p&gt;
+&lt;p&gt;Для создания заголовков используется знак &amp;ldquo;#&amp;rdquo;. Помимо этого, можно форматировать текст - для задания полужирного начертания нужно с двух сторон от текст поставить двойные звездочки, для курсивного начертания - одинарные. Для создания неупорядоченных списков используются звездочки или тире (есть возможность вложить один список в другой), для цитирования символ &amp;gt;.&lt;/p&gt;
+&lt;p&gt;Для генерации файла из md в формат pdf и docs, я использую Pandoc.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Неделя с 24.04 по 30.04</title>
+      <link>https://example.com/post/lastweek3/</link>
+      <pubDate>Mon, 24 Apr 2023 13:08:14 +0300</pubDate>
+      <guid>https://example.com/post/lastweek3/</guid>
+      <description>&lt;p&gt;За прошедшую неделю я написала контрольную по математическому анализу, выполнила 12 лабораторная работу и продолжила развитие своего сайта.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Язык разметки Markdown</title>
