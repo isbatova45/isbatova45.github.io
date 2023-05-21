@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: May 5, 2023 --><html lang="en-us" >
+<!-- Last Published: May 21, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -268,7 +268,7 @@
 
 
 
-  <meta name="author" content="Ирина Батова" />
+  <meta name="author" content="Irina Batova" />
 
 
 
@@ -276,9 +276,11 @@
 
   
 
-<meta name="description" content="Методы криптования на основе открытого ключа - схема реализации, преимущества и недостатки, самые известные системы" />
+<meta name="description" content="Public key encryption methods - implementation scheme, advantages and disadvantages, the most famous systems" />
 
 
+
+  <link rel="alternate" hreflang="ru" href="https://example.com/ru/project/cripts/" />
 
 <link rel="alternate" hreflang="en-us" href="https://example.com/project/cripts/" />
 <link rel="canonical" href="https://example.com/project/cripts/" />
@@ -317,8 +319,8 @@
 <meta property="twitter:image" content="https://example.com/project/cripts/featured.jpg" />
 <meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://example.com/project/cripts/" />
-<meta property="og:title" content="Ассиметричное шифрованиe | Academic" />
-<meta property="og:description" content="Методы криптования на основе открытого ключа - схема реализации, преимущества и недостатки, самые известные системы" /><meta property="og:image" content="https://example.com/project/cripts/featured.jpg" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Asymmetric Encryption | Academic" />
+<meta property="og:description" content="Public key encryption methods - implementation scheme, advantages and disadvantages, the most famous systems" /><meta property="og:image" content="https://example.com/project/cripts/featured.jpg" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -353,7 +355,7 @@
     "@type": "WebPage",
     "@id": "https://example.com/project/cripts/"
   },
-  "headline": "Ассиметричное шифрованиe",
+  "headline": "Asymmetric Encryption",
   
   "image": [
     "https://example.com/project/cripts/featured.jpg"
@@ -364,7 +366,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "Ирина Батова"
+    "name": "Irina Batova"
   },
   
   "publisher": {
@@ -375,7 +377,7 @@
       "url": "https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Методы криптования на основе открытого ключа - схема реализации, преимущества и недостатки, самые известные системы"
+  "description": "Public key encryption methods - implementation scheme, advantages and disadvantages, the most famous systems"
 }
 </script>
 
@@ -397,7 +399,7 @@
 
 
   
-  <title>Ассиметричное шифрованиe | Academic</title>
+  <title>Asymmetric Encryption | Academic</title>
 
   
   
@@ -787,6 +789,22 @@
 
         
         
+        <li class="nav-item dropdown i18n-dropdown">
+          <a href="#" class="nav-link " data-toggle="dropdown"
+             aria-haspopup="true" aria-label="Languages">
+            <i class="fas fa-globe mr-1" aria-hidden="true"></i></a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item dropdown-item-active">
+              <span>English</span>
+            </div>
+            
+            <a class="dropdown-item" href="https://example.com/ru/project/cripts/">
+              <span>Русский</span>
+            </a>
+            
+          </div>
+        </li>
+        
 
       </ul>
 
@@ -832,7 +850,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Ассиметричное шифрованиe</h1>
+  <h1>Asymmetric Encryption</h1>
 
   
 
@@ -926,20 +944,20 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>При шифровании с открытым ключом каждым из собеседников создается пара ключей – открытый ключ и закрытый ключ. Эти ключи связаны друг с другом, поэтому расшифровать сообщения, зашифрованное с помощью открытого ключа, можно только с помощью соответствующего закрытого ключа.
-Важным моментом является то, что при создании ключей возможна генерация очень больших чисел таким образом, что при знании открытого ключа нельзя вычислить закрытый ключ никаким образом. Таким образом, обеспечивание надежного шифрования сообщений базируется на знании закрытого ключа исключительно его владельцем. В основе идеи ассиметричного шифрования лежит сложный математический вопрос, позволяющий строить односторонние функции. По известному х легко определяется функция y = f(x). Но при этом по известному значению y очень сложно вычислить х. В качестве открытого ключа используется y, а в качестве закрытого x. Для всех методов шифрования с открытым ключом математически строго не доказано отсутствие других методов вычисление закрытого ключа методом перебора. Криптосистемы с открытыми ключами различаются видом односторонних функций.</p>
-<p>При необходимости передачи информации от собеседника к собеседнику действует единая схема реализации ассиметричного шифрования. Для начала первый собеседник выбирает алгоритм и пару открытого и закрытого ключей. Открытый ключ посылается второму собеседнику по открытому, незащищенному каналу. После этого второй собеседник шифрует информацию с помощью присланного открытого ключа и передает полученный шифр обратно первому собеседнику, который расшифровывает сообщение с помощью созданного в начале закрытого ключа. При этом, если необходимо наладить канал связи в обе стороны, то операции до расшифровки сообщений делают оба собеседника. Таким образом, каждый будет знать свои закрытый, открытый ключи и открытый ключ собеседника.</p>
-<p>Таким образом, если обозначить через EA открытый ключ собеседника А, через DA закрытый ключ собеседника А, то v=EA(u) – это результат зашифрования сообщения u, а u=DA(v) – результат расшифровки сообщения v. При этом преобразования должны быть такими, что для любого u выполняется равенство DA(EA(u))=u.</p>
-<p>Криптография с открытым ключом используется как самостоятельное средство защиты информации, так и как средство распределения ключей, и как средство аутентификации пользователей. Однако, как и у любой системы, у этого способа шифрования есть свои преимущества и недостатки относительно симметричного шифрования.</p>
-<p>К преимуществам можно отнести отсутствие необходимости передачи секретного ключа по надежному каналу и знание ключа расшифровки только одним из собеседников. Кроме того, в больших сетях число ключей будет значительно меньше, чем в симметричной системе.
-К недостаткам же можно отнести сложность внесения изменений в алгоритм, более длинные ключи, более медленный процесс шифровки и расшифровки сообщения и необходимость бОльших вычислительных ресурсов для использования.</p>
-<p>Разберем несколько самых известных систем, основанных на шифровании с помощью открытого ключа.</p>
-<p>В 1977 учеными Массачусетского технологического института был разработан алгоритм шифрования RSA, основанный на проблеме разложения на множители (задача факторизации). Эта система была названа RSA по первым буквам фамилий ученых и стала первым алгоритмом, пригодным и для шифрования, и для цифровой подписи.
-В данном алгоритме выбираются простые числа p и q, которые держатся в секрете, а публикуется только их произведение N=p*q и ключ зашифровывания (открытый ключ). Закрытый ключ, то есть ключ расшифровки, секретен и вырабатывается с помощью знания факторизации чисел N (то есть знания p и q).</p>
-<p>Система Эль-Гамаля основана на сложности вычисления дискретных логарифмов в конечных полях. Включает в себя алгоритм шифрования и алгоритм цифровой подписи. Схема была предложена Тахером Эль-Гамалем в 1984 году. Фактически, он разработал один из вариантов алгоритма Диффи-Хеллмана.: усовершенствовал систему и получил два алгоритма, которые использовались для шифрования и для обеспечения аутентификации. Но алгоритм Эль-Гамаля не был запатентован и, поэтому, стал более дешевой альтернативой, так как не требовалась оплата взносов за лицензию. Считается, что алгоритм попадает под действие патента Диффи-Хеллмана.</p>
-<p>Система Мак-Элиса основана на теории алгебраического кодирования (декодирование полных линейных кодов) и была первой схемой, использующая рандомизацию в процессе шифрования. Разработана Робертом Мак-Элисом в 1978 году.
-Для закрытого ключа выбирается двоичный код Гоппа исправляющий ошибки, для которого известен эффективный алгоритм декодирования (алгоритм Петерсона). Открытый же ключ получается с помощью маскировки выбранного кода как полного линейного.</p>
-<p>В заключение хочу сказать, что ассиметричное шифрование является более надежным, чем симметричное. Криптографические системы с открытым ключом в настоящее время широко применяются в различных сетевых протоколах, в частности, в протоколах TLS и его предшественнике SSL (лежащих в основе HTTPS), в SSH. Также используется в PGP, S/MIME.</p>
+      <p>In public-key encryption, each party creates a pair of keys, a public key and a private key. These keys are linked to each other, so a message encrypted with the public key can only be decrypted with the corresponding private key.
+An important point is that when creating keys, it is possible to generate very large numbers in such a way that, knowing the public key, it is impossible to calculate the private key in any way. Thus, ensuring reliable encryption of messages is based on the knowledge of the private key exclusively by its owner. The idea of asymmetric encryption is based on a complex mathematical question that allows you to build one-way functions. Given x, the function y = f(x) is easily determined. But at the same time, it is very difficult to calculate x from a known value of y. y is used as the public key and x as the private key. For all encryption methods with a public key, the absence of other methods has not been mathematically strictly proven; the calculation of the private key by brute force. Cryptosystems with public keys differ in the form of one-way functions.</p>
+<p>If it is necessary to transfer information from the interlocutor to the interlocutor, a single scheme for the implementation of asymmetric encryption operates. To begin with, the first interlocutor chooses an algorithm and a pair of public and private keys. The public key is sent to the second interlocutor over an open, insecure channel. After that, the second interlocutor encrypts the information using the sent public key and sends the received cipher back to the first interlocutor, who decrypts the message using the private key created at the beginning. At the same time, if it is necessary to establish a communication channel in both directions, then operations before decrypting messages are performed by both interlocutors. Thus, everyone will know their private, public keys and the public key of the interlocutor.</p>
+<p>Thus, if we denote by EA the public key of the interlocutor A, by DA the private key of the interlocutor A, then v=EA(u) is the result of encrypting the message u, and u=DA(v) is the result of decrypting the message v. In this case, the transformations must be such that for any u the equality DA(EA(u))=u holds true.</p>
+<p>Public key cryptography is used as an independent means of protecting information, as well as a means of distributing keys, and as a means of user authentication. However, like any system, this encryption method has its advantages and disadvantages relative to symmetric encryption.</p>
+<p>The advantages include the absence of the need to transfer the secret key over a reliable channel and the knowledge of the decryption key by only one of the interlocutors. In addition, in large networks, the number of keys will be significantly less than in a symmetrical system.
+The disadvantages include the complexity of making changes to the algorithm, longer keys, a slower process of encrypting and decrypting a message, and the need for more computing resources to use.</p>
+<p>Let&rsquo;s take a look at some of the most famous systems based on encryption using a public key.</p>
+<p>In 1977, scientists at the Massachusetts Institute of Technology developed the RSA encryption algorithm based on the factorization problem (the factorization problem). This system was named RSA after the first letters of the names of scientists and became the first algorithm suitable for both encryption and digital signature.
+In this algorithm, prime numbers p and q are chosen, which are kept secret, and only their product N=p*q and the encryption key (public key) are published. The private key, that is, the decryption key, is secret and is generated using knowledge of the factorization of the numbers N (that is, knowledge of p and q).</p>
+<p>The ElGamal system is based on the difficulty of computing discrete logarithms in finite fields. Includes encryption algorithm and digital signature algorithm. The scheme was proposed by Taher El-Gamal in 1984. In fact, he developed one of the variants of the Diffie-Hellman algorithm .: he improved the system and received two algorithms that were used for encryption and for authentication. But ElGamal&rsquo;s algorithm was not patented and therefore became a cheaper alternative, as there were no license fees to pay. The algorithm is believed to be covered by the Diffie-Hellman patent.</p>
+<p>McEliece&rsquo;s system is based on algebraic coding theory (decoding of complete linear codes) and was the first scheme to use randomization in the encryption process. Designed by Robert McAlice in 1978.
+For the private key, a binary error-correcting Gopp code is chosen, for which an efficient decoding algorithm (Peterson&rsquo;s algorithm) is known. The public key is obtained by disguising the selected code as a complete linear one.</p>
+<p>In conclusion, I want to say that asymmetric encryption is more secure than symmetric encryption. Public key cryptographic systems are currently widely used in various network protocols, in particular, in the TLS protocols and its predecessor SSL (underlying HTTPS), in SSH. Also used in PGP, S/MIME.</p>
 
     </div>
 
@@ -972,7 +990,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;text=%D0%90%D1%81%D1%81%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5&#43;%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8e" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;text=Asymmetric&#43;Encryption" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -989,7 +1007,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;t=%D0%90%D1%81%D1%81%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5&#43;%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8e" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;t=Asymmetric&#43;Encryption" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1008,7 +1026,7 @@
         
       
       <li>
-        <a href="mailto:?subject=%D0%90%D1%81%D1%81%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5%20%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8e&amp;body=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Asymmetric%20Encryption&amp;body=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1025,7 +1043,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;title=%D0%90%D1%81%D1%81%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5&#43;%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8e" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;title=Asymmetric&#43;Encryption" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1042,7 +1060,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=%D0%90%D1%81%D1%81%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5&#43;%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8e%20https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Asymmetric&#43;Encryption%20https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1059,7 +1077,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;title=%D0%90%D1%81%D1%81%D0%B8%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%87%D0%BD%D0%BE%D0%B5&#43;%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8e" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fproject%2Fcripts%2F&amp;title=Asymmetric&#43;Encryption" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1092,13 +1110,13 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu5c462718f5c094e8219d8230346b031d_963828_270x270_fill_q75_lanczos_center.jpg" alt="Ирина Батова"></a>
+      <a href="https://example.com/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu5c462718f5c094e8219d8230346b031d_963828_270x270_fill_q75_lanczos_center.jpg" alt="Irina Batova"></a>
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="https://example.com/">Ирина Батова</a></h5>
-      <h6 class="card-subtitle">Студент Российского университета дружбы народов</h6>
-      <p class="card-text">Мои интересы в науке - математика, программирование, химия.</p>
+      <h5 class="card-title"><a href="https://example.com/">Irina Batova</a></h5>
+      <h6 class="card-subtitle">Student of RUDN University</h6>
+      <p class="card-text">My interests in science are mathematics, programming, chemistry.</p>
       <ul class="network-icon" aria-hidden="true">
   
     

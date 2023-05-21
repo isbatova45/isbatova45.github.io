@@ -5,7 +5,7 @@
     <link>https://example.com/tag/academic/</link>
       <atom:link href="https://example.com/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 May 2023 13:09:21 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 May 2023 16:46:14 +0300</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
@@ -13,98 +13,117 @@
     </image>
     
     <item>
-      <title>Языки научного программирования</title>
+      <title>15.05 - 21.05</title>
+      <link>https://example.com/post/lastweek5/</link>
+      <pubDate>Sun, 21 May 2023 16:46:14 +0300</pubDate>
+      <guid>https://example.com/post/lastweek5/</guid>
+      <description>&lt;p&gt;The past week has been normal. The session is coming up, so a lot of study.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Encryption</title>
+      <link>https://example.com/post/shifr/</link>
+      <pubDate>Sun, 21 May 2023 13:09:14 +0300</pubDate>
+      <guid>https://example.com/post/shifr/</guid>
+      <description>&lt;p&gt;Encryption is the transformation of information in order to hide it from unauthorized persons. It is with the help of encryption that three states of information security are provided: confidentiality, integrity and identifiability. In any encryption algorithm, the key is important - it approves the choice of a particular transformation. An encryption key is a set of numbers and letters used by an algorithm to encrypt and decrypt information. The strength of the key depends on its length in bits.&lt;/p&gt;
+&lt;p&gt;Encryption can be symmetrical or asymmetric. Symmetric encryption uses the same key for both encryption and decryption. And with asymmetric encryption (encryption with a public key), the encryption and decryption keys are different, which makes this option more reliable.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scientific programming languages</title>
       <link>https://example.com/post/languages/</link>
       <pubDate>Fri, 05 May 2023 13:09:21 +0300</pubDate>
       <guid>https://example.com/post/languages/</guid>
-      <description>&lt;p&gt;Как известно, в мире множество языков научного программирования. В этом посте немного поговорим о самых известных и используемых языках в разных сферах науки.&lt;/p&gt;
-&lt;p&gt;К одному из важных языков относится Bash - обновленная оболочка Unix, впервые выпущенная в конце 80-х годов. На Bash обычно пишутся сценарии конфигурации сервера. Области применения: администрирование сервера, инструменты интерфейса командной строки, DevOps, виртуализация.&lt;/p&gt;
-&lt;p&gt;К одному из старейших, но используемых до сиз пор языков, относится COBOL. Он был создан Грейс Хоппер в конце 1950-х годов и предназначался для стандартизации разработки крупномасштабных бизнес-приложений на компьютерах. Через системы COBOL проходят невероятные 95% транзакций ATM, причем многие из этих устройств работают круглосуточно 365 дней в году. Области применения: банковское дело/финансы, международные корпорации, правительства.&lt;/p&gt;
-&lt;p&gt;Самыми мощными и быстродействующими языками считаются C/C++. C был создан в начале 1970-х годов Деннисом Ритчи, C ++ в 1985 году разработал Бьёрн Страуструп. C и C++ хорошо подходят для требовательных приложений, которым важны низкоуровневый доступ к оборудованию и производительность. Область применения: разработка ОС/SDK, встроенные устройства, игровые движки, наука.&lt;/p&gt;
-&lt;p&gt;Dart - достаточно современный язык программирования, разработанный в Google для создания мобильных, десктопных, веб-и серверных приложений. Dart предоставляет обширный набор функций, подходящих для определения сложных взаимодействий, асинхронных операций, анимации и других задач. Области применения: кроссплатформенные приложения, облачные сервисы/корпоративные системы, игры, графика.&lt;/p&gt;
-&lt;p&gt;Fortran был создан в 1950-х годах Джоном Бакусом, для проведения научных и инженерных работ. Области применения: аэрокосмическая/оборонная промышленность, научные вычисления, численный анализ.&lt;/p&gt;
-&lt;p&gt;JavaScript был разработан Брэндоном Айхом в 90-х годах, чтобы добавлять выполнение скриптов на сайты. Сегодня это универсальный язык веб-интерфейса с мощными стандартизированными функциями, которые поддерживаются всеми основными браузерами. Области применения: фулстэк-разработка, облачные сервисы/контейнерное хранение, игры, утилиты.&lt;/p&gt;
-&lt;p&gt;Нельзя не упомянуть Python - один из самых известных языков даже не в круг программистов. Этот язык хорошо зарекомендовал себя и останется одним из наиболее востребованных инструментов в течение долгого времени. Области применения: искусственный интеллект/машинное обучение, интеллектуальная обработка данных, облачные сервисы/веб, медиа, скрипты.&lt;/p&gt;
-&lt;p&gt;Последний язык, который я хотела бы затронуть - SQL. Этот язык относится к универсальным языкам программирования и является мощным предметно-ориентированным языком для управления реляционными базами данных. Расширенные навыки позволяют разработчику создавать чрезвычайно безопасные и надежные правила предметной области, не зависящие от языка программирования или используемого SDK. Высокопрофильные реализации включают в себя Microsoft SQL Server, Oracle Database и PostgreSQL. Каждая из них обладает уникальным расширением языка SQL и предлагает новые функции, выходящие за рамки базовой спецификации SQL. Области применения: работа с реляционными данными, встраивание данных в приложения.&lt;/p&gt;
+      <description>&lt;p&gt;As you know, there are many scientific programming languages in the world. In this post, we will talk a little about the most famous and used languages in various fields of science.&lt;/p&gt;
+&lt;p&gt;One important language is Bash, an updated Unix shell first released in the late 80s. Server configuration scripts are usually written in Bash. Applications: server administration, CLI tools, DevOps, virtualization.&lt;/p&gt;
+&lt;p&gt;COBOL belongs to one of the oldest but still used languages. It was created by Grace Hopper in the late 1950s and was intended to standardize the development of large-scale business applications on computers. An incredible 95% of ATM transactions go through COBOL systems, with many of these devices operating 24 hours a day, 365 days a year. Applications: banking/finance, international corporations, governments.&lt;/p&gt;
+&lt;p&gt;The most powerful and fastest languages are C/C++. C was created in the early 1970s by Dennis Ritchie, C++ was developed by Bjorn Stroustrup in 1985. C and C++ are well suited for demanding applications that value low-level hardware access and performance. Applications: OS/SDK development, embedded devices, game engines, science.&lt;/p&gt;
+&lt;p&gt;Dart is a fairly modern programming language developed by Google for creating mobile, desktop, web and server applications. Dart provides a rich set of features suitable for defining complex interactions, asynchronous operations, animations, and more. Applications: cross-platform applications, cloud services/corporate systems, games, graphics.&lt;/p&gt;
+&lt;p&gt;Fortran was created in the 1950s by John Backus to carry out scientific and engineering work. Applications: aerospace/defense, scientific computing, numerical analysis.&lt;/p&gt;
+&lt;p&gt;JavaScript was developed by Brandon Eich in the 90s to add scripting to websites. Today it is a universal web interface language with powerful, standardized features that are supported by all major browsers. Applications: full-stack development, cloud services/container storage, games, utilities.&lt;/p&gt;
+&lt;p&gt;It is impossible not to mention Python - one of the most famous languages, not even in the circle of programmers. This language is well established and will remain one of the most requested tools for a long time to come. Applications: artificial intelligence/machine learning, data mining, cloud services/web, media, scripts.&lt;/p&gt;
+&lt;p&gt;The last language I would like to touch on is SQL. This language belongs to the universal programming languages and is a powerful domain-specific language for managing relational databases. Advanced skills allow the developer to create extremely secure and robust domain rules that are independent of the programming language or SDK used. High profile implementations include Microsoft SQL Server, Oracle Database, and PostgreSQL. Each of them has a unique extension of the SQL language and offers new features that go beyond the core SQL specification. Applications: working with relational data, embedding data in applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Неделя с 01.05 по 07.05</title>
+      <title>01.05 - 07.05</title>
       <link>https://example.com/post/lastweek4/</link>
       <pubDate>Fri, 05 May 2023 13:08:21 +0300</pubDate>
       <guid>https://example.com/post/lastweek4/</guid>
-      <description>&lt;p&gt;На этой неделе, в связи с приближением сессии, было много учебы и работы. Я продолжила работать над сайтом, выполнила предпоследнюю лабораторную работу.&lt;/p&gt;
+      <description>&lt;p&gt;Due to the approach of the session, there was a lot of study and work. I continued to work on the site, completed the penultimate laboratory work.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Оформление отчёта</title>
+      <title>Report design</title>
       <link>https://example.com/post/reportcreate/</link>
       <pubDate>Mon, 24 Apr 2023 13:09:14 +0300</pubDate>
       <guid>https://example.com/post/reportcreate/</guid>
-      <description>&lt;p&gt;Для оформления отчета я использую язык разметки Markdown. В начала файла всегда указывается номер лабораторной работы, по которой делается отчет, дисциплина и ФИО студента, выполнившего работу. Ниже указывается цель работы, затем поэтапно описывается каждый этап работы со скриншотами, на каждый скриншот указывается ссылка. В конце работы располагается вывод, согласованный с темой работы, а также ответы на контрольные вопросы.&lt;/p&gt;
-&lt;p&gt;Для создания заголовков используется знак &amp;ldquo;#&amp;rdquo;. Помимо этого, можно форматировать текст - для задания полужирного начертания нужно с двух сторон от текст поставить двойные звездочки, для курсивного начертания - одинарные. Для создания неупорядоченных списков используются звездочки или тире (есть возможность вложить один список в другой), для цитирования символ &amp;gt;.&lt;/p&gt;
-&lt;p&gt;Для генерации файла из md в формат pdf и docs, я использую Pandoc.&lt;/p&gt;
+      <description>&lt;p&gt;I use the Markdown markup language to design the report. At the beginning of the file, the number of the laboratory work on which the report is being made, the discipline and the full name of the student who completed the work is always indicated. The purpose of the work is indicated below, then each stage of working with screenshots is described step by step, a link is indicated for each screenshot. At the end of the work there is a conclusion consistent with the topic of the work, as well as answers to control questions.&lt;/p&gt;
+&lt;p&gt;The &amp;ldquo;#&amp;rdquo; sign is used to create headers. In addition, you can format the text - to set the bold style, you need to put double asterisks on both sides of the text, for italic style - single. To create unordered lists, asterisks or dashes are used (it is possible to nest one list in another), to quote the symbol &amp;gt;.&lt;/p&gt;
+&lt;p&gt;To generate a file from md to pdf and docs format, I use Pandoc.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Неделя с 24.04 по 30.04</title>
+      <title>24.04 - 30.04</title>
       <link>https://example.com/post/lastweek3/</link>
       <pubDate>Mon, 24 Apr 2023 13:08:14 +0300</pubDate>
       <guid>https://example.com/post/lastweek3/</guid>
-      <description>&lt;p&gt;За прошедшую неделю я написала контрольную по математическому анализу, выполнила 12 лабораторная работу и продолжила развитие своего сайта.&lt;/p&gt;
+      <description>&lt;p&gt;Over the past week, I wrote a mathematical analysis test, completed 12 lab, and continued developing my site.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Язык разметки Markdown</title>
+      <title>Markdown language</title>
       <link>https://example.com/post/markdown/</link>
       <pubDate>Thu, 06 Apr 2023 16:48:14 +0300</pubDate>
       <guid>https://example.com/post/markdown/</guid>
-      <description>&lt;p&gt;Markdown — язык разметки, используемый для создания форматированного текста с помощью текстового редактора. Его можно открывать и изменять в любом редакторе текста. Широко используется для написания документаций и README-файлов.&lt;/p&gt;
-&lt;p&gt;Маркдаун создал писатель и блогер Джон Грубер вместе с веб-активистом Аароном Шварцем. Они хотели придумать максимально простой и удобный язык разметки, с помощью которого текст можно перевести в красиво оформленный вид. При этом текст обязан оставаться читаемым даже без приведения к «красивому» виду. Таким и оказался Markdown. Его создали в 2004 году, но наибольшую популярность язык получил сейчас. Его поддерживают разнообразные платформы для блогов, сервисы создания заметок, CMS и даже мессенджеры.&lt;/p&gt;
-&lt;p&gt;Markdown содержит базовые элементы, которые можно найти почти в любом README.md:&lt;/p&gt;
+      <description>&lt;p&gt;Markdown is a markup language used to create rich text using a text editor. It can be opened and modified in any text editor. Widely used for writing documentation and README files.&lt;/p&gt;
+&lt;p&gt;Markdown was created by writer and blogger John Gruber along with web activist Aaron Schwartz. They wanted to come up with the simplest and most convenient markup language with which text can be translated into a beautifully designed look. At the same time, the text must remain readable even without being reduced to a “beautiful” look. This is what Markdown turned out to be. It was created in 2004, but the language has gained the most popularity now. It is supported by a variety of blogging platforms, note-taking services, CMS, and even instant messengers.&lt;/p&gt;
+&lt;p&gt;Markdown contains basic elements that can be found in almost any README.md:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;заголовок первого уровня для названия;&lt;/li&gt;
-&lt;li&gt;выделение жирным шрифтом важных частей в описании;&lt;/li&gt;
-&lt;li&gt;ссылка с понятным текстом;&lt;/li&gt;
-&lt;li&gt;заголовок второго уровня для подпунктов;&lt;/li&gt;
-&lt;li&gt;маркированный список для перечисления преимуществ.&lt;/li&gt;
+&lt;li&gt;first level heading for the title;&lt;/li&gt;
+&lt;li&gt;highlighting in bold type important parts in the description;&lt;/li&gt;
+&lt;li&gt;link with clear text;&lt;/li&gt;
+&lt;li&gt;second-level heading for sub-items;&lt;/li&gt;
+&lt;li&gt;a bulleted list to list the benefits.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;В целом, Markdown используется для быстрого форматирования статьи для перевода в PDF, верстки текстового документа для размещения на сайте, но без применения HTML, написания документации для кода, составления заметок в личном цифровом блокноте.&lt;/p&gt;
+&lt;p&gt;In general, Markdown is used for quickly formatting an article for translation into PDF, layout of a text document for placement on the site, but without the use of HTML, writing documentation for the code, making notes in a personal digital notebook.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Неделя с 3.04 по 9.04</title>
+      <title>3.04 - 9.04</title>
       <link>https://example.com/post/lastweek2/</link>
       <pubDate>Thu, 06 Apr 2023 16:46:14 +0300</pubDate>
       <guid>https://example.com/post/lastweek2/</guid>
-      <description>&lt;p&gt;На прошедшей неделе я написала контрольную по математической логике, а также выполняла лабораторную работу по предмету &amp;ldquo;Операционные системы&amp;rdquo; на тему &amp;ldquo;Текстовый редактор emacs&amp;rdquo;. Помимо этого, наконец получилось запланировать поездку на лето к друзьям за границу, уже купили билеты.&lt;/p&gt;
+      <description>&lt;p&gt;Last week I wrote a test in mathematical logic, and also did a lab in the subject &amp;ldquo;Operating systems&amp;rdquo; on the topic &amp;ldquo;Emacs text editor&amp;rdquo;. In addition, we finally managed to plan a trip for the summer to friends abroad, we have already bought tickets.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Непрерывная интеграция и непрерывное развертывание (СD/CI)</title>
+      <title>Continuous Integration and Continuous Deployment (CD/CI)</title>
       <link>https://example.com/post/cdci/</link>
       <pubDate>Fri, 17 Mar 2023 16:50:31 +0300</pubDate>
       <guid>https://example.com/post/cdci/</guid>
-      <description>&lt;p&gt;В контексте современных методов разработки и DevOps часто используются аббревиатуры CI и CD. CI означает непрерывную интеграцию, а CD - непрерывное развертывание (или непрерывную поставку).&lt;/p&gt;
-&lt;p&gt;Непрерывная интеграция - это фундаментальная рекомендация DevOps, согласно которой разработчики должны регулярно проводить слияние изменений кода в центральном репозитории, где выполняются автоматизированные сборки и тесты. Разработчики, применяющие непрерывную интеграцию, при каждой возможности выполняют слияние своих изменений с основной веткой. Изменения, внесенные разработчиком, проверяются путем создания сборки и запуска автоматических тестов на этой сборке. При использовании непрерывной интеграции уделяется большое внимание автоматизации тестирования, в результате которого при интеграции новых коммитов в основную ветку работа приложения не нарушается.&lt;/p&gt;
-&lt;p&gt;Также есть непрерывная поставка - продолжение непрерывной интеграции, поскольку при ней происходит автоматическое развертывание всех изменений кода, то есть, автоматизирован не только процесс тестирования, но и процесс выпуска продукта. Непрерывное развертывание идет на один шаг дальше, чем непрерывная поставка - каждое изменение, которое проходит все стадии производственного конвейера, выпускается для клиентов. Вмешательство человека не требуется, и развертыванию нового изменения в рабочую среду может помешать только ошибка во время теста. Непрерывное развертывание применяется для ускорения цикла обратной связи с клиентами.&lt;/p&gt;
-&lt;p&gt;Таким образом, непрерывная интеграция является частью как непрерывной поставки, так и непрерывного развертывания. А непрерывное развертывание похоже на непрерывную поставку, за исключением того, что релизы выполняются автоматически.&lt;/p&gt;
-&lt;p&gt;Основной минус использования непрерывной интеграции и непрерывного развертывания - придется писать автоматические тесты для каждой новой функции, улучшения или баг-фикса. Помимо этого, необходим сервер непрерывной интеграции, который может отслеживать основной репозиторий и автоматически запускать тесты для каждого нового отправленного коммита. Однако есть и неоценимые преимущества - в рабочую среду попадает меньше багов, из-за этого сборка релиза проходит гораздо легче, снижаются затраты на тестирование, ускоряется процесс разработки.&lt;/p&gt;
+      <description>&lt;p&gt;In the context of modern development methods and DevOps, the abbreviations CI and CD are often used. CI stands for Continuous Integration and CD stands for Continuous Deployment (or Continuous Delivery).&lt;/p&gt;
+&lt;p&gt;Continuous Integration is a fundamental DevOps recommendation that developers regularly merge code changes into a central repository where automated builds and tests are performed. Developers who use continuous integration merge their changes back into the main branch whenever possible. Changes made by a developer are verified by creating an assembly and running automated tests on that assembly. When using continuous integration, a lot of attention is paid to test automation, as a result of which, when integrating new commits into the main branch, the application does not break.&lt;/p&gt;
+&lt;p&gt;There is also continuous delivery - the continuation of continuous integration, since it automatically deploys all code changes, that is, not only the testing process is automated, but also the product release process. Continuous deployment goes one step further than continuous delivery - every change that goes through the production pipeline is released to customers. No human intervention is required, and only an error during a test can prevent a new change from being deployed to production. Continuous deployment is used to speed up the customer feedback cycle.&lt;/p&gt;
+&lt;p&gt;Thus, continuous integration is part of both continuous delivery and continuous deployment. And continuous deployment is similar to continuous delivery, except that releases happen automatically.&lt;/p&gt;
+&lt;p&gt;The main disadvantage of using continuous integration and continuous deployment is that you have to write automated tests for each new feature, improvement or bug fix. In addition, you need a continuous integration server that can monitor the main repository and automatically run tests for each new committed commit. However, there are invaluable advantages - fewer bugs get into the production environment, because of this, the release build is much easier, testing costs are reduced, and the development process is accelerated.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Неделя с 13.03 по 18.03</title>
+      <title>13.03 - 18.03</title>
       <link>https://example.com/post/lastweek/</link>
       <pubDate>Fri, 17 Mar 2023 16:46:14 +0300</pubDate>
       <guid>https://example.com/post/lastweek/</guid>
-      <description>&lt;p&gt;Прошедшая неделя была абсолютно обычной. Прошли две контрольных - по линейной алгебре и по математическому анализу. Помимо этого, я выполняла лабораторную работу, домашнее задание по истории и немного работала в свободное время.&lt;/p&gt;
+      <description>&lt;p&gt;The past week has been completely normal. Passed two control - in linear algebra and mathematical analysis. In addition, I did lab work, history homework, and did some work in my spare time.&lt;/p&gt;
 </description>
     </item>
     
