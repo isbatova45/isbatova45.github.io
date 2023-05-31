@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>https://example.com/ru/</link>
-      <atom:link href="https://example.com/ru/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://isbatova45.github.io/ru/</link>
+      <atom:link href="https://isbatova45.github.io/ru/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://isbatova45.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>https://example.com/ru/</link>
+      <link>https://isbatova45.github.io/ru/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://example.com/ru/talk/example-talk/</link>
+      <link>https://isbatova45.github.io/ru/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/talk/example-talk/</guid>
+      <guid>https://isbatova45.github.io/ru/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,18 +34,18 @@
     
     <item>
       <title>Неделя с 15.05 по 21.05</title>
-      <link>https://example.com/ru/post/lastweek5/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek5/</link>
       <pubDate>Sun, 21 May 2023 16:46:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek5/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek5/</guid>
       <description>&lt;p&gt;Прошедшая неделя была обычной. Приближается сессия, поэтому много учебы.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Шифрование</title>
-      <link>https://example.com/ru/post/shifr/</link>
+      <link>https://isbatova45.github.io/ru/post/shifr/</link>
       <pubDate>Sun, 21 May 2023 13:09:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/shifr/</guid>
+      <guid>https://isbatova45.github.io/ru/post/shifr/</guid>
       <description>&lt;p&gt;Шифрование – это преобразование информации в целях ее сокрытия от неавторизованных лиц. Именно с помощью шифрования обеспечиваются три состояния безопасности информации: конфиденциальность, целостность и идентифицируемость. В любом алгоритме шифрования важен ключ – он утверждает выбор конкретного преобразования. Ключ шифрования – набор цифр и букв, используемый алгоритмом для шифрования и расшифровки информации. При этом надежность ключа зависит от его длины в битах.&lt;/p&gt;
 &lt;p&gt;Шифрование бывает симметричным и ассиметричным. Симметричное шифрования использует один и тот же ключ и для шифрования, и для расшифровывания. А при ассиметричном шифровании (шифровании с открытым ключом) ключи шифрования и расшифровывания – разные, что делает этот вариант более надежным.&lt;/p&gt;
 </description>
@@ -53,9 +53,9 @@
     
     <item>
       <title>Языки научного программирования</title>
-      <link>https://example.com/ru/post/languages/</link>
+      <link>https://isbatova45.github.io/ru/post/languages/</link>
       <pubDate>Fri, 05 May 2023 13:09:21 +0300</pubDate>
-      <guid>https://example.com/ru/post/languages/</guid>
+      <guid>https://isbatova45.github.io/ru/post/languages/</guid>
       <description>&lt;p&gt;Как известно, в мире множество языков научного программирования. В этом посте немного поговорим о самых известных и используемых языках в разных сферах науки.&lt;/p&gt;
 &lt;p&gt;К одному из важных языков относится Bash - обновленная оболочка Unix, впервые выпущенная в конце 80-х годов. На Bash обычно пишутся сценарии конфигурации сервера. Области применения: администрирование сервера, инструменты интерфейса командной строки, DevOps, виртуализация.&lt;/p&gt;
 &lt;p&gt;К одному из старейших, но используемых до сиз пор языков, относится COBOL. Он был создан Грейс Хоппер в конце 1950-х годов и предназначался для стандартизации разработки крупномасштабных бизнес-приложений на компьютерах. Через системы COBOL проходят невероятные 95% транзакций ATM, причем многие из этих устройств работают круглосуточно 365 дней в году. Области применения: банковское дело/финансы, международные корпорации, правительства.&lt;/p&gt;
@@ -70,18 +70,18 @@
     
     <item>
       <title>Неделя с 01.05 по 07.05</title>
-      <link>https://example.com/ru/post/lastweek4/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek4/</link>
       <pubDate>Fri, 05 May 2023 13:08:21 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek4/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek4/</guid>
       <description>&lt;p&gt;На этой неделе, в связи с приближением сессии, было много учебы и работы. Я продолжила работать над сайтом, выполнила предпоследнюю лабораторную работу.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Ассиметричное шифрованиe</title>
-      <link>https://example.com/ru/project/cripts/</link>
+      <link>https://isbatova45.github.io/ru/project/cripts/</link>
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/project/cripts/</guid>
+      <guid>https://isbatova45.github.io/ru/project/cripts/</guid>
       <description>&lt;p&gt;При шифровании с открытым ключом каждым из собеседников создается пара ключей – открытый ключ и закрытый ключ. Эти ключи связаны друг с другом, поэтому расшифровать сообщения, зашифрованное с помощью открытого ключа, можно только с помощью соответствующего закрытого ключа.
 Важным моментом является то, что при создании ключей возможна генерация очень больших чисел таким образом, что при знании открытого ключа нельзя вычислить закрытый ключ никаким образом. Таким образом, обеспечивание надежного шифрования сообщений базируется на знании закрытого ключа исключительно его владельцем. В основе идеи ассиметричного шифрования лежит сложный математический вопрос, позволяющий строить односторонние функции. По известному х легко определяется функция y = f(x). Но при этом по известному значению y очень сложно вычислить х. В качестве открытого ключа используется y, а в качестве закрытого x. Для всех методов шифрования с открытым ключом математически строго не доказано отсутствие других методов вычисление закрытого ключа методом перебора. Криптосистемы с открытыми ключами различаются видом односторонних функций.&lt;/p&gt;
 &lt;p&gt;При необходимости передачи информации от собеседника к собеседнику действует единая схема реализации ассиметричного шифрования. Для начала первый собеседник выбирает алгоритм и пару открытого и закрытого ключей. Открытый ключ посылается второму собеседнику по открытому, незащищенному каналу. После этого второй собеседник шифрует информацию с помощью присланного открытого ключа и передает полученный шифр обратно первому собеседнику, который расшифровывает сообщение с помощью созданного в начале закрытого ключа. При этом, если необходимо наладить канал связи в обе стороны, то операции до расшифровки сообщений делают оба собеседника. Таким образом, каждый будет знать свои закрытый, открытый ключи и открытый ключ собеседника.&lt;/p&gt;
@@ -101,9 +101,9 @@
     
     <item>
       <title>Параллельные и последовательные порты</title>
-      <link>https://example.com/ru/project/ports/</link>
+      <link>https://isbatova45.github.io/ru/project/ports/</link>
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/project/ports/</guid>
+      <guid>https://isbatova45.github.io/ru/project/ports/</guid>
       <description>&lt;p&gt;Для связи с периферийными устройствами к шине компьютера подключены одна или несколько микросхем контроллера ввода-вывода. Основная функция порта – выступать в качестве точки подключения, в которую подключают кабель от периферийного устройства, и обеспечить передачу данных от одного устройства к другому. Обычно именно сам конец разъема, находящегося на материнской плате, называют портом. В любом компьютере обязательно есть минимальный набор портов, без которых функционирование невозможно – это порты для подключения монитора, мыши, клавиатуры, разъем для сетевого подключения, универсальный USB порт и аудиоразъем звуковой платы. При необходимости количество компьютерных портов можно увеличить с помощью плат расширения, подключаемых к основной плате.&lt;/p&gt;
 &lt;p&gt;Порты можно разделить на два типа – последовательные и параллельные. Делят их в зависимости от типа, используемого для связи.&lt;/p&gt;
 &lt;p&gt;Последовательные порты (также называется СОМ-портом) – это порты, через которые периферийные устройства подключаются с использованием последовательного протокола. Другими словами, информация через них передается по одному биту, бит за битом. Название «последовательный порт» закрепилось за портом, имеющим стандарт RS-232С, поэтому, хотя другие интерфейсы (например, USB) также используют последовательный способ обмена, их не относят к последовательным портам. Последовательные разъемы обычно имеют от 9 до 25 контактов, а персональный компьютер обычно имеет от одного до четырех последовательных портов. Последовательные порты, как правило, встраиваются в материнскую плату.&lt;/p&gt;
@@ -119,9 +119,9 @@
     
     <item>
       <title>Оформление отчёта</title>
-      <link>https://example.com/ru/post/reportcreate/</link>
+      <link>https://isbatova45.github.io/ru/post/reportcreate/</link>
       <pubDate>Mon, 24 Apr 2023 13:09:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/reportcreate/</guid>
+      <guid>https://isbatova45.github.io/ru/post/reportcreate/</guid>
       <description>&lt;p&gt;Для оформления отчета я использую язык разметки Markdown. В начала файла всегда указывается номер лабораторной работы, по которой делается отчет, дисциплина и ФИО студента, выполнившего работу. Ниже указывается цель работы, затем поэтапно описывается каждый этап работы со скриншотами, на каждый скриншот указывается ссылка. В конце работы располагается вывод, согласованный с темой работы, а также ответы на контрольные вопросы.&lt;/p&gt;
 &lt;p&gt;Для создания заголовков используется знак &amp;ldquo;#&amp;rdquo;. Помимо этого, можно форматировать текст - для задания полужирного начертания нужно с двух сторон от текст поставить двойные звездочки, для курсивного начертания - одинарные. Для создания неупорядоченных списков используются звездочки или тире (есть возможность вложить один список в другой), для цитирования символ &amp;gt;.&lt;/p&gt;
 &lt;p&gt;Для генерации файла из md в формат pdf и docs, я использую Pandoc.&lt;/p&gt;
@@ -130,18 +130,18 @@
     
     <item>
       <title>Неделя с 24.04 по 30.04</title>
-      <link>https://example.com/ru/post/lastweek3/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek3/</link>
       <pubDate>Mon, 24 Apr 2023 13:08:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek3/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek3/</guid>
       <description>&lt;p&gt;За прошедшую неделю я написала контрольную по математическому анализу, выполнила 12 лабораторная работу и продолжила развитие своего сайта.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Язык разметки Markdown</title>
-      <link>https://example.com/ru/post/markdown/</link>
+      <link>https://isbatova45.github.io/ru/post/markdown/</link>
       <pubDate>Thu, 06 Apr 2023 16:48:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/markdown/</guid>
+      <guid>https://isbatova45.github.io/ru/post/markdown/</guid>
       <description>&lt;p&gt;Markdown — язык разметки, используемый для создания форматированного текста с помощью текстового редактора. Его можно открывать и изменять в любом редакторе текста. Широко используется для написания документаций и README-файлов.&lt;/p&gt;
 &lt;p&gt;Маркдаун создал писатель и блогер Джон Грубер вместе с веб-активистом Аароном Шварцем. Они хотели придумать максимально простой и удобный язык разметки, с помощью которого текст можно перевести в красиво оформленный вид. При этом текст обязан оставаться читаемым даже без приведения к «красивому» виду. Таким и оказался Markdown. Его создали в 2004 году, но наибольшую популярность язык получил сейчас. Его поддерживают разнообразные платформы для блогов, сервисы создания заметок, CMS и даже мессенджеры.&lt;/p&gt;
 &lt;p&gt;Markdown содержит базовые элементы, которые можно найти почти в любом README.md:&lt;/p&gt;
@@ -158,18 +158,18 @@
     
     <item>
       <title>Неделя с 3.04 по 9.04</title>
-      <link>https://example.com/ru/post/lastweek2/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek2/</link>
       <pubDate>Thu, 06 Apr 2023 16:46:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek2/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek2/</guid>
       <description>&lt;p&gt;На прошедшей неделе я написала контрольную по математической логике, а также выполняла лабораторную работу по предмету &amp;ldquo;Операционные системы&amp;rdquo; на тему &amp;ldquo;Текстовый редактор emacs&amp;rdquo;. Помимо этого, наконец получилось запланировать поездку на лето к друзьям за границу, уже купили билеты.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Непрерывная интеграция и непрерывное развертывание (СD/CI)</title>
-      <link>https://example.com/ru/post/cdci/</link>
+      <link>https://isbatova45.github.io/ru/post/cdci/</link>
       <pubDate>Fri, 17 Mar 2023 16:50:31 +0300</pubDate>
-      <guid>https://example.com/ru/post/cdci/</guid>
+      <guid>https://isbatova45.github.io/ru/post/cdci/</guid>
       <description>&lt;p&gt;В контексте современных методов разработки и DevOps часто используются аббревиатуры CI и CD. CI означает непрерывную интеграцию, а CD - непрерывное развертывание (или непрерывную поставку).&lt;/p&gt;
 &lt;p&gt;Непрерывная интеграция - это фундаментальная рекомендация DevOps, согласно которой разработчики должны регулярно проводить слияние изменений кода в центральном репозитории, где выполняются автоматизированные сборки и тесты. Разработчики, применяющие непрерывную интеграцию, при каждой возможности выполняют слияние своих изменений с основной веткой. Изменения, внесенные разработчиком, проверяются путем создания сборки и запуска автоматических тестов на этой сборке. При использовании непрерывной интеграции уделяется большое внимание автоматизации тестирования, в результате которого при интеграции новых коммитов в основную ветку работа приложения не нарушается.&lt;/p&gt;
 &lt;p&gt;Также есть непрерывная поставка - продолжение непрерывной интеграции, поскольку при ней происходит автоматическое развертывание всех изменений кода, то есть, автоматизирован не только процесс тестирования, но и процесс выпуска продукта. Непрерывное развертывание идет на один шаг дальше, чем непрерывная поставка - каждое изменение, которое проходит все стадии производственного конвейера, выпускается для клиентов. Вмешательство человека не требуется, и развертыванию нового изменения в рабочую среду может помешать только ошибка во время теста. Непрерывное развертывание применяется для ускорения цикла обратной связи с клиентами.&lt;/p&gt;
@@ -180,18 +180,18 @@
     
     <item>
       <title>Неделя с 13.03 по 18.03</title>
-      <link>https://example.com/ru/post/lastweek/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek/</link>
       <pubDate>Fri, 17 Mar 2023 16:46:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek/</guid>
       <description>&lt;p&gt;Прошедшая неделя была абсолютно обычной. Прошли две контрольных - по линейной алгебре и по математическому анализу. Помимо этого, я выполняла лабораторную работу, домашнее задание по истории и немного работала в свободное время.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://example.com/ru/publication/preprint/</link>
+      <link>https://isbatova45.github.io/ru/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/publication/preprint/</guid>
+      <guid>https://isbatova45.github.io/ru/publication/preprint/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
@@ -203,9 +203,9 @@
     
     <item>
       <title>Slides</title>
-      <link>https://example.com/ru/slides/example/</link>
+      <link>https://isbatova45.github.io/ru/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/slides/example/</guid>
+      <guid>https://isbatova45.github.io/ru/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -328,9 +328,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example journal article</title>
-      <link>https://example.com/ru/publication/journal-article/</link>
+      <link>https://isbatova45.github.io/ru/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/publication/journal-article/</guid>
+      <guid>https://isbatova45.github.io/ru/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -347,9 +347,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>https://example.com/ru/publication/conference-paper/</link>
+      <link>https://isbatova45.github.io/ru/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/publication/conference-paper/</guid>
+      <guid>https://isbatova45.github.io/ru/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -366,9 +366,9 @@ $$&lt;/p&gt;
     
     <item>
       <title></title>
-      <link>https://example.com/ru/admin/config.yml</link>
+      <link>https://isbatova45.github.io/ru/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/ru/admin/config.yml</guid>
+      <guid>https://isbatova45.github.io/ru/admin/config.yml</guid>
       <description></description>
     </item>
     

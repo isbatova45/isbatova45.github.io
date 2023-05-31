@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Demo | Academic</title>
-    <link>https://example.com/ru/category/demo/</link>
-      <atom:link href="https://example.com/ru/category/demo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://isbatova45.github.io/ru/category/demo/</link>
+      <atom:link href="https://isbatova45.github.io/ru/category/demo/index.xml" rel="self" type="application/rss+xml" />
     <description>Demo</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-ru</language><lastBuildDate>Sun, 21 May 2023 16:46:14 +0300</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://isbatova45.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Demo</title>
-      <link>https://example.com/ru/category/demo/</link>
+      <link>https://isbatova45.github.io/ru/category/demo/</link>
     </image>
     
     <item>
       <title>Неделя с 15.05 по 21.05</title>
-      <link>https://example.com/ru/post/lastweek5/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek5/</link>
       <pubDate>Sun, 21 May 2023 16:46:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek5/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek5/</guid>
       <description>&lt;p&gt;Прошедшая неделя была обычной. Приближается сессия, поэтому много учебы.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Шифрование</title>
-      <link>https://example.com/ru/post/shifr/</link>
+      <link>https://isbatova45.github.io/ru/post/shifr/</link>
       <pubDate>Sun, 21 May 2023 13:09:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/shifr/</guid>
+      <guid>https://isbatova45.github.io/ru/post/shifr/</guid>
       <description>&lt;p&gt;Шифрование – это преобразование информации в целях ее сокрытия от неавторизованных лиц. Именно с помощью шифрования обеспечиваются три состояния безопасности информации: конфиденциальность, целостность и идентифицируемость. В любом алгоритме шифрования важен ключ – он утверждает выбор конкретного преобразования. Ключ шифрования – набор цифр и букв, используемый алгоритмом для шифрования и расшифровки информации. При этом надежность ключа зависит от его длины в битах.&lt;/p&gt;
 &lt;p&gt;Шифрование бывает симметричным и ассиметричным. Симметричное шифрования использует один и тот же ключ и для шифрования, и для расшифровывания. А при ассиметричном шифровании (шифровании с открытым ключом) ключи шифрования и расшифровывания – разные, что делает этот вариант более надежным.&lt;/p&gt;
 </description>
@@ -33,9 +33,9 @@
     
     <item>
       <title>Языки научного программирования</title>
-      <link>https://example.com/ru/post/languages/</link>
+      <link>https://isbatova45.github.io/ru/post/languages/</link>
       <pubDate>Fri, 05 May 2023 13:09:21 +0300</pubDate>
-      <guid>https://example.com/ru/post/languages/</guid>
+      <guid>https://isbatova45.github.io/ru/post/languages/</guid>
       <description>&lt;p&gt;Как известно, в мире множество языков научного программирования. В этом посте немного поговорим о самых известных и используемых языках в разных сферах науки.&lt;/p&gt;
 &lt;p&gt;К одному из важных языков относится Bash - обновленная оболочка Unix, впервые выпущенная в конце 80-х годов. На Bash обычно пишутся сценарии конфигурации сервера. Области применения: администрирование сервера, инструменты интерфейса командной строки, DevOps, виртуализация.&lt;/p&gt;
 &lt;p&gt;К одному из старейших, но используемых до сиз пор языков, относится COBOL. Он был создан Грейс Хоппер в конце 1950-х годов и предназначался для стандартизации разработки крупномасштабных бизнес-приложений на компьютерах. Через системы COBOL проходят невероятные 95% транзакций ATM, причем многие из этих устройств работают круглосуточно 365 дней в году. Области применения: банковское дело/финансы, международные корпорации, правительства.&lt;/p&gt;
@@ -50,18 +50,18 @@
     
     <item>
       <title>Неделя с 01.05 по 07.05</title>
-      <link>https://example.com/ru/post/lastweek4/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek4/</link>
       <pubDate>Fri, 05 May 2023 13:08:21 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek4/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek4/</guid>
       <description>&lt;p&gt;На этой неделе, в связи с приближением сессии, было много учебы и работы. Я продолжила работать над сайтом, выполнила предпоследнюю лабораторную работу.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Оформление отчёта</title>
-      <link>https://example.com/ru/post/reportcreate/</link>
+      <link>https://isbatova45.github.io/ru/post/reportcreate/</link>
       <pubDate>Mon, 24 Apr 2023 13:09:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/reportcreate/</guid>
+      <guid>https://isbatova45.github.io/ru/post/reportcreate/</guid>
       <description>&lt;p&gt;Для оформления отчета я использую язык разметки Markdown. В начала файла всегда указывается номер лабораторной работы, по которой делается отчет, дисциплина и ФИО студента, выполнившего работу. Ниже указывается цель работы, затем поэтапно описывается каждый этап работы со скриншотами, на каждый скриншот указывается ссылка. В конце работы располагается вывод, согласованный с темой работы, а также ответы на контрольные вопросы.&lt;/p&gt;
 &lt;p&gt;Для создания заголовков используется знак &amp;ldquo;#&amp;rdquo;. Помимо этого, можно форматировать текст - для задания полужирного начертания нужно с двух сторон от текст поставить двойные звездочки, для курсивного начертания - одинарные. Для создания неупорядоченных списков используются звездочки или тире (есть возможность вложить один список в другой), для цитирования символ &amp;gt;.&lt;/p&gt;
 &lt;p&gt;Для генерации файла из md в формат pdf и docs, я использую Pandoc.&lt;/p&gt;
@@ -70,18 +70,18 @@
     
     <item>
       <title>Неделя с 24.04 по 30.04</title>
-      <link>https://example.com/ru/post/lastweek3/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek3/</link>
       <pubDate>Mon, 24 Apr 2023 13:08:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek3/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek3/</guid>
       <description>&lt;p&gt;За прошедшую неделю я написала контрольную по математическому анализу, выполнила 12 лабораторная работу и продолжила развитие своего сайта.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Язык разметки Markdown</title>
-      <link>https://example.com/ru/post/markdown/</link>
+      <link>https://isbatova45.github.io/ru/post/markdown/</link>
       <pubDate>Thu, 06 Apr 2023 16:48:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/markdown/</guid>
+      <guid>https://isbatova45.github.io/ru/post/markdown/</guid>
       <description>&lt;p&gt;Markdown — язык разметки, используемый для создания форматированного текста с помощью текстового редактора. Его можно открывать и изменять в любом редакторе текста. Широко используется для написания документаций и README-файлов.&lt;/p&gt;
 &lt;p&gt;Маркдаун создал писатель и блогер Джон Грубер вместе с веб-активистом Аароном Шварцем. Они хотели придумать максимально простой и удобный язык разметки, с помощью которого текст можно перевести в красиво оформленный вид. При этом текст обязан оставаться читаемым даже без приведения к «красивому» виду. Таким и оказался Markdown. Его создали в 2004 году, но наибольшую популярность язык получил сейчас. Его поддерживают разнообразные платформы для блогов, сервисы создания заметок, CMS и даже мессенджеры.&lt;/p&gt;
 &lt;p&gt;Markdown содержит базовые элементы, которые можно найти почти в любом README.md:&lt;/p&gt;
@@ -98,18 +98,18 @@
     
     <item>
       <title>Неделя с 3.04 по 9.04</title>
-      <link>https://example.com/ru/post/lastweek2/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek2/</link>
       <pubDate>Thu, 06 Apr 2023 16:46:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek2/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek2/</guid>
       <description>&lt;p&gt;На прошедшей неделе я написала контрольную по математической логике, а также выполняла лабораторную работу по предмету &amp;ldquo;Операционные системы&amp;rdquo; на тему &amp;ldquo;Текстовый редактор emacs&amp;rdquo;. Помимо этого, наконец получилось запланировать поездку на лето к друзьям за границу, уже купили билеты.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Непрерывная интеграция и непрерывное развертывание (СD/CI)</title>
-      <link>https://example.com/ru/post/cdci/</link>
+      <link>https://isbatova45.github.io/ru/post/cdci/</link>
       <pubDate>Fri, 17 Mar 2023 16:50:31 +0300</pubDate>
-      <guid>https://example.com/ru/post/cdci/</guid>
+      <guid>https://isbatova45.github.io/ru/post/cdci/</guid>
       <description>&lt;p&gt;В контексте современных методов разработки и DevOps часто используются аббревиатуры CI и CD. CI означает непрерывную интеграцию, а CD - непрерывное развертывание (или непрерывную поставку).&lt;/p&gt;
 &lt;p&gt;Непрерывная интеграция - это фундаментальная рекомендация DevOps, согласно которой разработчики должны регулярно проводить слияние изменений кода в центральном репозитории, где выполняются автоматизированные сборки и тесты. Разработчики, применяющие непрерывную интеграцию, при каждой возможности выполняют слияние своих изменений с основной веткой. Изменения, внесенные разработчиком, проверяются путем создания сборки и запуска автоматических тестов на этой сборке. При использовании непрерывной интеграции уделяется большое внимание автоматизации тестирования, в результате которого при интеграции новых коммитов в основную ветку работа приложения не нарушается.&lt;/p&gt;
 &lt;p&gt;Также есть непрерывная поставка - продолжение непрерывной интеграции, поскольку при ней происходит автоматическое развертывание всех изменений кода, то есть, автоматизирован не только процесс тестирования, но и процесс выпуска продукта. Непрерывное развертывание идет на один шаг дальше, чем непрерывная поставка - каждое изменение, которое проходит все стадии производственного конвейера, выпускается для клиентов. Вмешательство человека не требуется, и развертыванию нового изменения в рабочую среду может помешать только ошибка во время теста. Непрерывное развертывание применяется для ускорения цикла обратной связи с клиентами.&lt;/p&gt;
@@ -120,9 +120,9 @@
     
     <item>
       <title>Неделя с 13.03 по 18.03</title>
-      <link>https://example.com/ru/post/lastweek/</link>
+      <link>https://isbatova45.github.io/ru/post/lastweek/</link>
       <pubDate>Fri, 17 Mar 2023 16:46:14 +0300</pubDate>
-      <guid>https://example.com/ru/post/lastweek/</guid>
+      <guid>https://isbatova45.github.io/ru/post/lastweek/</guid>
       <description>&lt;p&gt;Прошедшая неделя была абсолютно обычной. Прошли две контрольных - по линейной алгебре и по математическому анализу. Помимо этого, я выполняла лабораторную работу, домашнее задание по истории и немного работала в свободное время.&lt;/p&gt;
 </description>
     </item>

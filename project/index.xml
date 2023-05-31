@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Academic</title>
-    <link>https://example.com/project/</link>
-      <atom:link href="https://example.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://isbatova45.github.io/project/</link>
+      <atom:link href="https://isbatova45.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://isbatova45.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://example.com/project/</link>
+      <link>https://isbatova45.github.io/project/</link>
     </image>
     
     <item>
       <title>Asymmetric Encryption</title>
-      <link>https://example.com/project/cripts/</link>
+      <link>https://isbatova45.github.io/project/cripts/</link>
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/cripts/</guid>
+      <guid>https://isbatova45.github.io/project/cripts/</guid>
       <description>&lt;p&gt;In public-key encryption, each party creates a pair of keys, a public key and a private key. These keys are linked to each other, so a message encrypted with the public key can only be decrypted with the corresponding private key.
 An important point is that when creating keys, it is possible to generate very large numbers in such a way that, knowing the public key, it is impossible to calculate the private key in any way. Thus, ensuring reliable encryption of messages is based on the knowledge of the private key exclusively by its owner. The idea of asymmetric encryption is based on a complex mathematical question that allows you to build one-way functions. Given x, the function y = f(x) is easily determined. But at the same time, it is very difficult to calculate x from a known value of y. y is used as the public key and x as the private key. For all encryption methods with a public key, the absence of other methods has not been mathematically strictly proven; the calculation of the private key by brute force. Cryptosystems with public keys differ in the form of one-way functions.&lt;/p&gt;
 &lt;p&gt;If it is necessary to transfer information from the interlocutor to the interlocutor, a single scheme for the implementation of asymmetric encryption operates. To begin with, the first interlocutor chooses an algorithm and a pair of public and private keys. The public key is sent to the second interlocutor over an open, insecure channel. After that, the second interlocutor encrypts the information using the sent public key and sends the received cipher back to the first interlocutor, who decrypts the message using the private key created at the beginning. At the same time, if it is necessary to establish a communication channel in both directions, then operations before decrypting messages are performed by both interlocutors. Thus, everyone will know their private, public keys and the public key of the interlocutor.&lt;/p&gt;
@@ -36,9 +36,9 @@ For the private key, a binary error-correcting Gopp code is chosen, for which an
     
     <item>
       <title>Parallel and Serial Ports</title>
-      <link>https://example.com/project/ports/</link>
+      <link>https://isbatova45.github.io/project/ports/</link>
       <pubDate>Fri, 05 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/project/ports/</guid>
+      <guid>https://isbatova45.github.io/project/ports/</guid>
       <description>&lt;p&gt;To communicate with peripheral devices, one or more I/O controller chips are connected to the computer bus. The main function of a port is to act as a connection point where a cable is connected from a peripheral device and to allow data to be transferred from one device to another. Usually, it is the very end of the connector located on the motherboard that is called the port. Any computer must have a minimum set of ports, without which operation is impossible - these are ports for connecting a monitor, mouse, keyboard, a network connection connector, a universal USB port and an audio connector for a sound card. If necessary, the number of computer ports can be increased using expansion boards connected to the main board.&lt;/p&gt;
 &lt;p&gt;Ports can be divided into two types - serial and parallel. They are divided depending on the type used for communication.&lt;/p&gt;
 &lt;p&gt;Serial ports (also called COM port) are ports through which peripheral devices are connected using a serial protocol. In other words, information is transmitted through them one bit at a time, bit by bit. The name &amp;ldquo;serial port&amp;rdquo; is assigned to a port that has the RS-232C standard, so although other interfaces (such as USB) also use a serial method of exchange, they are not classified as serial ports. Serial connectors typically have 9 to 25 pins, and a personal computer typically has one to four serial ports. Serial ports are usually built into the motherboard.&lt;/p&gt;
